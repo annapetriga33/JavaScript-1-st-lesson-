@@ -1,5 +1,5 @@
-var radius = 0.3;
-var height = 20;
+var radiusCylinder = 0.3;
+var heightCylinder = 20;
 
-var volume = Math.pow(Math.PI * radius, 2) * height;
+var volume = Math.pow(Math.PI * radiusCylinder, 2) * heightCylinder;
 console.log('volume-->', volume);
