@@ -1,6 +1,5 @@
-var pi = Math.PI;
-var r = 0.3;
-var h = 20;
+var radius = 0.3;
+var height = 20;
 
-var volume = Math.pow(pi*r, 2)*h;
+var volume = Math.pow(Math.PI * radius, 2) * height;
 console.log('volume-->', volume);
